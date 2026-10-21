@@ -1,25 +1,28 @@
 #include<stdio.h>
+typedef int BOOL;
+#define TRUE 1
+#define FALSE 0
 
 /////////////////////////////////////////////////////////////
 //
-//  Function Name : Display
-//  Description   : Display numbers from 1 to 5
-//  Input         : None
-//  Output        : None
+//  Function Name : Check
+//  Description   : Check if a number is divisible by 5
+//  Input         : Integer
+//  Output        : Boolean
 //  Author        : Abhishek Mahesh Khedkar
 //  Date          : 22/10/2026
 //
 /////////////////////////////////////////////////////////////
 
-int Display()
+BOOL Check( int iNo)
 {
-    int i = 0;
-    int i = 5;
-
-    while( i <= 5 )
+    if(( iNo % 5) == 0)
     {
-        printf("%d ",i);
-        i++;
+        return TRUE;
+    }
+    else
+    {
+        return FALSE ;
     }
 }
 
@@ -31,6 +34,22 @@ int Display()
 
 int main()
 {
-    Display();
+    int iValue = 0;
+    BOOL bRet = FALSE;
+
+    printf("Enter number");
+    scanf("%d" ,&iValue);
+
+    bRet = Check(iValue);
+
+    if(bRet == TRUE)
+    {
+        printf("Divisible by 5");
+    }
+    else
+    {
+        printf("Not Divisible by 5");
+    }
+
     return 0;
 }

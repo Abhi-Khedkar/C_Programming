@@ -1,28 +1,23 @@
 #include<stdio.h>
-typedef int BOOL;
-#define TRUE 1
-#define FALSE 0
 
 /////////////////////////////////////////////////////////////
 //
-//  Function Name : Check
-//  Description   : Check if a number is divisible by 5
+//  Function Name : Accept
+//  Description   : Accept a number and display asterisks
 //  Input         : Integer
-//  Output        : Boolean
+//  Output        : None
 //  Author        : Abhishek Mahesh Khedkar
 //  Date          : 22/10/2026
 //
 /////////////////////////////////////////////////////////////
 
-BOOL Check( int iNo)
+void Accept(int iNo)
 {
-    if(( iNo % 5) == 0)
+    int iCnt = 0;
+
+    for( iCnt = 1 ; iCnt <= iNo ; iCnt++ )
     {
-        return TRUE;
-    }
-    else
-    {
-        return FALSE ;
+        printf("* ");
     }
 }
 
@@ -35,21 +30,9 @@ BOOL Check( int iNo)
 int main()
 {
     int iValue = 0;
-    BOOL bRet = FALSE;
+    iValue = 5;
 
-    printf("Enter number");
-    scanf("%d" ,&iValue);
-
-    bRet = Check(iValue);
-
-    if(bRet == TRUE)
-    {
-        printf("Divisible by 5");
-    }
-    else
-    {
-        printf("Not Divisible by 5");
-    }
-
+    Accept(iValue);
+    
     return 0;
 }
