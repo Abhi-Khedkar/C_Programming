@@ -17,7 +17,7 @@ void Accept(int iNo)
 
     for( iCnt = 1 ; iCnt <= iNo ; iCnt++ )
     {
-        printf("* ");
+        printf("*");
     }
 }
 

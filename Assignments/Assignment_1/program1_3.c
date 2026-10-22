@@ -3,7 +3,7 @@
 /////////////////////////////////////////////////////////////
 //
 //  Function Name : Display
-//  Description   : Display numbers from 1 to 5
+//  Description   : Display numbers from 5 to 1
 //  Input         : None
 //  Output        : None
 //  Author        : Abhishek Mahesh Khedkar
@@ -14,12 +14,12 @@
 int Display()
 {
     int i = 0;
-    int i = 5;
+    i = 5;
 
-    while( i <= 5 )
+    while( i >= 1 )
     {
         printf("%d ",i);
-        i++;
+        i--;
     }
 }
 

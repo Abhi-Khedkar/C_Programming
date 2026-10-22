@@ -37,7 +37,7 @@ int main()
     int iValue = 0;
     BOOL bRet = FALSE;
 
-    printf("Enter number");
+    printf("Enter number : ");
     scanf("%d" ,&iValue);
 
     bRet = Check(iValue);
