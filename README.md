@@ -9,22 +9,31 @@ This repository tracks my progressive journey in C Programming through the Logic
 All programs are written in standard C and can be compiled and executed using the GCC compiler via the terminal or command prompt.
 
 1. **Open your terminal** and navigate to the specific folder (either a Classwork day or a specific Assignment):
+   ```bash
    cd Classwork/Day_01
    # OR
    cd Assignments/Assignment_1
+   ```
 
 2. **Compile the C program** using gcc (replace filename.c with the actual file name):
+   ```bash
    gcc filename.c -o outputname
+   ```
 
 3. **Run the generated executable:**
    * On Windows:
+     ```bash
      .\outputname.exe
+     ```
    * On Linux / Mac:
+     ```bash
      ./outputname
+     ```
 
 ## 📁 Folder Layout
 The repository is divided into daily classwork and structured assignment folders, growing from basic to advanced levels:
 
+```text
 C_Programming/
 ├── README.md
 ├── Classwork/ (Daily batch practice programs)
@@ -55,3 +64,4 @@ C_Programming/
     └── Assignment_6/ (Real-World Math & Logic)
         ├── program6_1.c
         └── ...
+```
