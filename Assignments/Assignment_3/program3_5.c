@@ -10,7 +10,7 @@ typedef int BOOL;
 //  Description   : Check whether that character is vowel or not
 //  Input         : Character
 //  Output        : Boolean (TRUE / FALSE)
-//  Author        : Abhishek Khedkar
+//  Author        : Abhishek Mahesh Khedkar
 //  Date          : 22/10/2026
 //
 /////////////////////////////////////////////////////////////////////////

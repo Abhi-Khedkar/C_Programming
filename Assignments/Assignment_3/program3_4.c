@@ -6,7 +6,7 @@
 //  Description   : Convert case of the given character
 //  Input         : Character
 //  Output        : None
-//  Author        : Abhishek Khedkar
+//  Author        : Abhishek Mahesh Khedkar
 //  Date          : 22/10/2026
 //
 /////////////////////////////////////////////////////////////////////////

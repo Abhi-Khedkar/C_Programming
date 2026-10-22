@@ -6,7 +6,7 @@
 //  Description   : Print even factors of a given number
 //  Input         : Integer
 //  Output        : None
-//  Author        : Abhishek Khedkar
+//  Author        : Abhishek Mahesh Khedkar
 //  Date          : 22/10/2026
 //
 /////////////////////////////////////////////////////////////////////////
